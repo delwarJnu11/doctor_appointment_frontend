@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Appointment</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_section">
+        <nav
+          class="d-flex justify-content-between align-items-center layout_width"
+        >
+          <div
+            class="logo-container d-flex justify-content-center align-items-center gap-2 py-2"
+          >
+            <img src="Images/stethoscope 1.png" alt="logo" />
+            <h1>Smart Care</h1>
+          </div>
+          <div
+            class="menu-container d-flex justify-content-center align-content-center list-unstyled"
+          >
+            <li class="mx-2 px-4 py-2">Home</li>
+            <li class="mx-2 px-4 py-2">Services</li>
+            <li class="mx-2 px-4 py-2">Contact Us</li>
+            <li class="mx-2 px-4 py-2">Login</li>
+          </div>
+        </nav>
+      </div>
+      <!-- banner part -->
+      <h2 class="layout_width py-4">
+        Hello Mr. <strong class="name">Adam Smith</strong>
+      </h2>
+      <div class="banner_container">
+        <div
+          class="banner d-flex justify-content-center align-items-center layout_width"
+        >
+          <div class="banner_left">
+            <h1 class="banner_title">Providing Quality Healthcare</h1>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+              nunc feugiat, pretium quam malesuada, luctus ex. Duis eu dui
+              rhoncus, faucibus diam ac, iaculis urna. Phasellus pellentesque
+              dui in suscipit eleifend.
+            </p>
+          </div>
+          <div class="banner_right">
+            <img class="banner_img" src="./Images/doc.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="services_section">
+        <h2 class="title">Services We Provide</h2>
+        <p class="sub_title">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nam
+          tempora voluptas alias quam omnis obcaecati soluta porro assumenda
+          neque.
+        </p>
+        <div
+          class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible layout_width"
+        >
+          <ul id="service_container" class="slider-container py-4"></ul>
+
+          <button
+            type="button"
+            class="slider-nav"
+            aria-label="Go left"
+          ></button>
+          <button
+            type="button"
+            class="slider-nav slider-nav-next"
+            aria-label="Go left"
+          ></button>
+
+          <div class="slider-indicators">
+            <button class="active" aria-label="Go to slide"></button>
+            <button aria-label="Go to slide"></button>
+            <button aria-label="Go to slide"></button>
+            <button aria-label="Go to slide"></button>
+            <button aria-label="Go to slide"></button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="doctor_section d-flex justify-content-between my-5 layout_width"
+      >
+        <div class="col-md-3 d-flex justify-content-center gap-3">
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Designation
+            </button>
+            <ul
+              id="designation"
+              class="dropdown-menu"
+              aria-labelledby="dropdownMenuButton1"
+            ></ul>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Specialist
+            </button>
+            <ul
+              id="specialization"
+              class="dropdown-menu"
+              aria-labelledby="dropdownMenuButton1"
+            ></ul>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div
+            class="d-flex justify-content-center align-items-center mb-4 gap-2"
+          >
+            <input
+              type="search"
+              placeholder="search..."
+              name="doctor"
+              id="doctor_input"
+            />
+            <button class="btn btn-primary search_btn">search</button>
+          </div>
+          <div id="doctors" class="doctors"></div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <!-- script files -->
+    <script src="js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </body>
+</html>

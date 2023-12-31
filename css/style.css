@@ -1,0 +1,153 @@
+.header_section {
+  background-color: rgb(17, 95, 95);
+  color: #fff;
+}
+.layout_width {
+  width: 1200px;
+  margin: auto;
+}
+li {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+li:hover {
+  background-color: teal;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  transition-duration: 0.1s;
+}
+.banner_container {
+  background: linear-gradient(to right, #a9f5ef, #06b4d3);
+}
+.name {
+  color: #007e85;
+  font-family: Poppins;
+  font-size: 35.108px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.banner {
+  height: 480px;
+}
+
+.banner_right {
+  width: 100%;
+}
+.banner_img {
+  width: 341px;
+  margin-top: -50px;
+}
+.banner_title {
+  color: #2b6977;
+  font-family: Lato;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 98.4%;
+  text-transform: capitalize;
+}
+.text {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+}
+
+.services_section {
+  margin: 2rem 0rem;
+}
+
+.title {
+  color: #007e85;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.sub_title {
+  color: #555;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 50%;
+  margin: auto;
+}
+.cards:hover {
+  color: black;
+}
+/* doctors style start */
+#doctor_input {
+  width: 75%;
+  padding: 10px 20px;
+  border-radius: 40px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+#doctor_input:focus {
+  border: none;
+}
+.search_btn {
+  padding: 10px 20px;
+}
+.doctor_card {
+  width: 273px;
+  height: 309px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #d4d2e3;
+  background: #fff;
+  text-align: center;
+  box-shadow: 4px 8px 5px rgb(165, 164, 164);
+}
+.image {
+  width: 112.597px;
+  height: 112.597px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.doctor_name {
+  color: #007e85;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+}
+.specialist {
+  color: #333;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 133.333% */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.doctor_des {
+  color: #555;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
